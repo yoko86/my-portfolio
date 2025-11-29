@@ -64,7 +64,7 @@ const worksData: Work[] = [
         },
         {
             type: 'image',
-            src: '/Figma.png', // もしFigmaの図や構成図があればここに入れると最高です
+            src: '/figma.png', // もしFigmaの図や構成図があればここに入れると最高です
             alt: 'アプリの画面遷移図',
             caption: 'Figmaで設計した画面'
         },
@@ -216,7 +216,7 @@ const worksData: Work[] = [
         },
         {
             type: 'image',
-            src: '/messagecard1-3.png',
+            src: '/Messagecard1-3.png',
         },
         {
             type: 'text',
@@ -224,7 +224,7 @@ const worksData: Work[] = [
         },
         {
             type: 'image',
-            src: '/messagecard2.jpg',
+            src: '/Messagecard2.jpg',
         },
     ],
   },
