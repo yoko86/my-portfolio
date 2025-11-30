@@ -108,7 +108,7 @@ export default function Contact() {
 
               {/* Instagram */}
               <a 
-                href="https://instagram.com/..." 
+                href="https://www.instagram.com/yuiren0_0/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start p-4 bg-white rounded-xl border border-pink-100 hover:border-pink-600 hover:shadow-md transition-all group"
@@ -122,20 +122,28 @@ export default function Contact() {
                 </div>
               </a>
 
-              {/* BASE (Shop) - 準備中のため、少し色を薄くして「Coming Soon」をつける */}
-              <div className="flex items-start p-4 bg-gray-50 rounded-xl border border-gray-100 opacity-70">
-                <div className="w-10 h-10 mr-4 text-gray-400">
-                   {/* Shopping Bag Icon */}
-                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-full h-full"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                {/* BASE Shop */}
+                <a 
+                href="https://muguni.base.shop/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start p-4 bg-white rounded-xl border border-pink-100 hover:border-pink-600 hover:shadow-md transition-all group"
+                >
+                <div className="w-10 h-10 mr-4 text-gray-700 group-hover:text-pink-600 transition-colors">
+                    {/* Shopping Bag Icon */}
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-full h-full">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
                 </div>
                 <div>
-                  <div className="font-bold text-gray-500 flex items-center">
+                    <div className="font-bold text-gray-800 group-hover:text-pink-600 transition-colors flex items-center">
                     BASE Shop
-                    <span className="ml-2 text-[10px] bg-gray-200 text-gray-500 px-2 py-0.5 rounded">Coming Soon</span>
-                  </div>
-                  <p className="text-xs text-gray-400 mt-1">オリジナルグッズの販売（準備中）。</p>
+                    </div>
+                    <p className="text-xs text-gray-500 mt-1">オリジナルグッズの販売。</p>
                 </div>
-              </div>
+                </a>
 
               {/* Creative Email */}
               <a 
